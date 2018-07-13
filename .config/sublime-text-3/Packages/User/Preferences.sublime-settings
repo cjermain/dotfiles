@@ -1,0 +1,30 @@
+{
+	"anaconda_linting": false,
+	"atomic_save": false,
+	"auto_complete": false,
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"flatland_sidebar_tree_medium": true,
+	"font_size": 10.5,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"pep8":
+	{
+		"@disable": false,
+		"args":
+		[
+		],
+		"excludes":
+		[
+		],
+		"ignore": "E501,C0301,W0142,W0402,R0201,E1101,E1102,C0103,R0901,R0903,R0904,C1001,W0223,W0232,W0201,E1103,R0801,C0111",
+		"max-line-length": 100,
+		"select": ""
+	},
+	"tab_size": 4,
+	"terminal": "gnome-terminal",
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"vintageous_use_ctrl_keys": false
+}
