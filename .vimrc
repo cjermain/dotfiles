@@ -2,7 +2,6 @@ set termguicolors
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-signify'
 Plug 'cocopon/iceberg.vim'
 Plug 'christoomey/vim-tmux-navigator'
@@ -85,6 +84,3 @@ let g:tmuxline_theme = 'iceberg'
 " Signify settings
 let g:signify_vcs_list = [ 'git' ]
 let g:signify_realtime = 1
-
-" CtrlP settings
-let g:ctrlp_show_hidden = 1
