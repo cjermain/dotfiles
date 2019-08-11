@@ -1,5 +1,8 @@
 set termguicolors
 
+" Set leader key
+let g:mapleader="\<Space>"
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'mhinz/vim-signify'
@@ -89,3 +92,15 @@ let g:tmuxline_theme = 'iceberg'
 " Signify settings
 let g:signify_vcs_list = [ 'git' ]
 let g:signify_realtime = 1
+
+" fzf key mappings
+nnoremap <silent> <leader>f :GFiles<CR>
+nnoremap <silent> <leader>F :Files<CR>
+nnoremap <silent> <leader>. :Files <C-r>=expand("%:h")<CR>/<CR>
+nnoremap <silent> <leader>b :Buffers<CR>
+nnoremap <silent> <leader>h :History<CR>
+nnoremap <silent> <leader>t :BTags<CR>
+nnoremap <silent> <leader>T :Tags<CR>
+nnoremap <silent> <leader>l :BLines<CR>
+nnoremap <silent> <leader>L :Lines<CR>
+nnoremap <silent> <leader>a :Ag<Space>
