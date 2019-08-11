@@ -56,6 +56,9 @@ set wrap " Wrap lines
 " Set line numbering
 set number
 
+" Include tags file in .git directory
+set tags+=.git/tags
+
 let g:tmux_navigator_no_mappings = 1
 
 nnoremap <silent> <C-H> :TmuxNavigateLeft<cr>

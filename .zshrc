@@ -120,3 +120,7 @@ bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
+
+# Provide gtags as a ctags shortcut for Git files only
+alias gfls='git ls-files --full-name | sed "s,^,$(git rev-parse --show-toplevel)/,"'
+alias gtags='gfls | ctags -L - -f "$(git rev-parse --git-dir)/tags"'
