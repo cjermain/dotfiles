@@ -8,7 +8,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-signify'
 Plug 'cocopon/iceberg.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'edkolev/tmuxline.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
@@ -75,10 +74,6 @@ let g:lightline = {}
 let g:lightline.colorscheme = 'iceberg'
 
 set showtabline=2 " Show tabline
-
-" TmuxLine settings
-let g:tmuxline_powerline_separators = 0
-let g:tmuxline_theme = 'iceberg'
 
 " Signify settings
 let g:signify_vcs_list = [ 'git' ]
