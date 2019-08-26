@@ -5,6 +5,7 @@ let g:mapleader="\<Space>"
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 Plug 'cocopon/iceberg.vim'
 Plug 'itchyny/lightline.vim'
