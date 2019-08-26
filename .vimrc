@@ -63,9 +63,6 @@ set tags+=.git/tags
 set splitbelow
 set splitright
 
-" vv to generate new vertical split
-nnoremap <silent> vv <C-w>v
-
 " set the history to remember 200 entries
 set history=200
 
